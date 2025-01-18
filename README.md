@@ -1,6 +1,8 @@
 # a1-thats-what-i-llike
 
 Repository for NLP assignment 1
+student_id: st124974
+student_name: Kaung Sithu
 
 | Model            | Window Size | Training Loss | Training Time  | Syntactic Accuracy | Semantic Accuracy |
 |------------------|-------------|---------------|----------------|--------------------|-------------------|
