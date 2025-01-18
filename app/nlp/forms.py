@@ -9,7 +9,6 @@ class NLPForm(forms.Form):
             ("SG", "Word2Vec(Skipgram)"),
             ("NG", "Word2Vec(Negativesampling)"),
             ("GE", "GloVe(Scratch)"),
-            ("GN", "GloVe(Gensim)"),
         ],
         widget=style,
     )
