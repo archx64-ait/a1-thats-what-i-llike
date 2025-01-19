@@ -1,8 +1,16 @@
 # a1-thats-what-i-llike
 
 Repository for NLP assignment 1
-student_id: st124974
-student_name: Kaung Sithu
+
+- student id: st124974
+- student name: Kaung Sithu
+
+## Dataset
+
+This assignment uses the NLTK library [Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media Inc.] and its associated datasets, including the Reuters-21578 Corpus [Lewis, D. D., Yang, Y., Rose, T. G., & Li, F. (2004). RCV1: A New Benchmark Collection for Text Categorization Research. Journal of Machine Learning Research, 5, 361-397]. The Reuters Corpus is distributed as part of the NLTK data resources:
+
+- Natural Language Toolkit (NLTK). Available at: <https://www.nltk.org/>
+- Reuters-21578 Text Categorization Test Collection, as accessed via the NLTK library. For more details, see: <https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html>
 
 ## How to run
 
@@ -27,8 +35,8 @@ python manage.py runserver
 | Skipgram         | 2           | 9.083         | 13m 8s 511ms   | 0                  | 0                 |
 | Skipgram (NEG)   | 2           | 7.27          | 15m 3s 810ms   | 0                  | 0                 |
 | Glove            | 2           | 612.54        | 3m 3s 693ms    | 0                  | 0                 |
-| Glove (Gensim)   | default     | -             | -              | 0                  | 0                 |
+| Glove (Gensim)   | default     | -             | -              | 55.45                  | 93.87                 |
 
 |Model           | Skipgram | NEG | GloVe | Glove (Gensim) | Y_true |
 |----------------|----------|-----|-------|----------------|--------|
-| MSE            | 26.602   | 29.366   | 28.357     | 26.602 | 5.12   |
+| MSE            | 26.602   | 29.366   | 28.357     | 27.8562 | 5.12   |
